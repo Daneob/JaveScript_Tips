@@ -1,0 +1,1 @@
+{"index.js":"function palindrome(str) {\n  // Good luck!\n  var lstr = str.toLowerCase(str);\n  var filtered_str =lstr.replace(/\\W|\\_|\\*|/gi,\"\");\n  var reversed_fill_str = filtered_str.split(\"\").reverse().join(\"\");\n\nif(filtered_str===reversed_fill_str) {\n  return true;\n} else{\n  return false;\n}\n}\npalindrome(\"racecare\");\nconsole.log(palindrome);"}
